@@ -3,7 +3,7 @@ package org.example.easy;
 public class IsPalindrome {
     public static boolean isPalindrome(int x) {
         String s = String.valueOf(x);
-        if (s.length() == 0) {
+        if (s.isEmpty()) {
             return false;
         }
         int max = s.length() - 1;
